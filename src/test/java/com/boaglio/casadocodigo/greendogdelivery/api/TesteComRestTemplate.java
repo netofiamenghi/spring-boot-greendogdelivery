@@ -15,7 +15,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Pedido;
+import com.ghi.tecnologia.greendogdelivery.api.FluxoPedido;
+import com.ghi.tecnologia.greendogdelivery.api.NovoPedido;
+import com.ghi.tecnologia.greendogdelivery.domain.Pedido;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
